@@ -5,10 +5,17 @@
 }
 
 
+/* common styles */
+
 body{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+.fixed-width{
+    width: 71%;
+    max-width: 1095px;
+}
+
 .color-orange{
     color: #FD6E0A;
 }
@@ -17,10 +24,12 @@ body{
     background-color: #FD6E0A;
     color: white;
     padding: 15px 32px;
-    outline: auto;
+    outline: none;
+    border: none;
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
     transition: 0.4s ease-in-out;
 }
 .btn:hover{
@@ -28,21 +37,25 @@ body{
 }
 
 
+
+/* main styles */
+
 header{
-    width: 100vw;
-    background-color: #FFF8F3;
+    width: 100%;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-position: top left , bottom right;
+    background-repeat: no-repeat;
 }
 
 nav{
-    width: 71%;
-    max-width: 1095px;
     padding-top: 50px;
     margin: 0 auto;
+    margin-bottom: 46px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logoname h1{
+.logoname h2{
     font-size: 40px;
     font-weight: 800;
 }
@@ -58,4 +71,52 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
+}
+
+.banner{
+    max-width: 1279px;
+    height: 676px;
+    margin: 0 38px 0 230px;
+    display: flex;
+    align-items: center;
+}
+.banner-content h4{
+    font-size: 40px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-content h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.banner-content p{
+    font-size: 17px;
+    color: #757575;
+    margin-bottom: 25px;
+    line-height: 30px;
+    width: 70%;
+}
+.btn2{
+    background-color: transparent;
+    color: #FD6E0A;
+    padding: 15px 32px;
+    margin-left: 25px;
+    outline: auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.btn2:hover{
+    background-color: #FD6E0A;
+    color: aliceblue;
+}
+
+.banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
 }
