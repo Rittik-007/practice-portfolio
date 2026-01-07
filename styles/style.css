@@ -43,12 +43,12 @@ body{
 header{
     width: 100%;
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
-    background-position: top left , bottom right;
+    background-position: 23px 30px , bottom right;
     background-repeat: no-repeat;
 }
 
 nav{
-    padding-top: 50px;
+    padding-top: 40px;
     margin: 0 auto;
     margin-bottom: 46px;
     display: flex;
@@ -119,4 +119,92 @@ nav ul li a{
 .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+.about{
+    padding-top: 130px;
+}
+.about-container{
+    background-color: #FFF8F3;
+    padding: 130px 157px;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+.about-container h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 25px;
+}
+.about-container p{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 25px;
+}
+
+.personal-info{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.personal-info-box h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.personal-info-box h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: #474747;
+}
+
+
+.works{
+    padding-top: 130px;
+}
+.works-container{
+    margin: 0 auto;
+    text-align: center;
+}
+.works-container h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 25px;
+}
+.works-container p{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.card{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 #0000000e;
+    text-align: left;
+}
+.card img{
+    margin-bottom: 30px;
+}
+.card h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 16x;
+    color: #757575;
+    line-height: 28px;
+    margin: 0;
 }
